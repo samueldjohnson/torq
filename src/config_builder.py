@@ -19,6 +19,7 @@ import textwrap
 from .base import ANDROID_SDK_VERSION_T, ValidationError
 
 
+
 def create_ftrace_events_string(predefined_ftrace_events,
                                 excluded_ftrace_events, included_ftrace_events):
   if excluded_ftrace_events is not None:
